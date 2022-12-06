@@ -21,11 +21,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+} 
+
+.margin-correction{
+    margin-top: 10%;
 }
 
+/* slider */
 #slider {
     margin: auto;
-    height: 700px;
+    height: 800px;
     width: 500px;
 }
 
@@ -41,7 +46,7 @@
 #slides {
     background: #fff;
     position: relative;
-    z-index: 1;
+    display: flex;
 }
 
 #overflow {
@@ -152,7 +157,7 @@
 #slide4:checked ~ #bullets label:nth-child(4) {
     background: #444;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
     #slide1:checked ~ #controls label:nth-child(2),
     #slide2:checked ~ #controls label:nth-child(3),
     #slide3:checked ~ #controls label:nth-child(4),
