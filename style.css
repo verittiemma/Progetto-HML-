@@ -32,8 +32,8 @@
 } 
 
 .slider {
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 700px;
     background-color: #e6e48d;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +45,7 @@
 .image-container {
     width: 1500px;
     background-color: #e6e48d;
-    height: 300px;
+    height: 700px;
     clear: both;
     position: relative;
     -webkit-transition: left 2s;
@@ -66,11 +66,11 @@
 }
 
 #slide-2:target ~ .image-container {
-    left: -500px;
+    left: -400px;
 }
 
 #slide-3:target ~ .image-container {
-    left: -1000px;
+    left: -800px;
 }
 
 .buttons {
@@ -80,8 +80,8 @@
   
 .buttons a {
     display: inline-block;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     border-radius: 50px;
     background-color: #414040;
 }
