@@ -43,7 +43,7 @@
 }
 
 .image-container {
-    width: 1500px;
+    width: 2500px;
     background-color: #e6e48d;
     height: 700px;
     clear: both;
@@ -73,6 +73,10 @@
     left: -800px;
 }
 
+#slide-4:target ~ .image-container {
+    left: -1200px;
+}
+
 .buttons {
     position: relative;
     top: -20px;
@@ -84,5 +88,10 @@
     width: 10px;
     border-radius: 50px;
     background-color: #414040;
+    opacity: 20%;
+}
+
+.buttons a:hover{
+    opacity: 100%;
 }
 
