@@ -13,15 +13,16 @@
     color: #000000;
     text-align: center;
     font-family: serif;
-    font-weight: 500;
+    font-weight: bolder;
     font-size: 50px;
 }
 
 .secondary-custom-title{
     color: #000000;
     text-align: center;
-    font-family: serif;
-    font-weight: 500;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    text-decoration: double;
     font-size: 35px;
 }
 
@@ -30,6 +31,10 @@
     margin-left: auto;
     margin-right: auto;
 } 
+
+.margin-correction{
+    margin-top: 3%;
+}
 
 .slider {
     width: 400px;
