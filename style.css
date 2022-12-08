@@ -26,18 +26,20 @@
     font-size: 35px;
 }
 
-.set-center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} 
+div.primary-custom-text{
+    color: #414040;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+ul.setcenter {
+    display: inline-block;
+    text-align: left;
+}
 
 .margin-correction{
     margin-top: 3%;
-}
-
-ul{
-    margin-left: 10%;
 }
 
 .slider {
