@@ -37,20 +37,31 @@
     font-size: 50px;
 }
 
-.margin-correction{
-    margin-left: 3%;
-    margin-right: 3%;
-    display: inline;
+.third-custom-title{
+    color: #000000;
+    text-align: center;
+    font-family: 'Blystnutter';
+    font-weight: bold;
+    text-shadow: 2px 2px #e6e48d;
+    font-size: 50px;
 }
 
-.section-correction{
-    display: inline-block;
-    vertical-align: middle;
+/*immagini*/
+#left{
+    margin-left: 15vh;
+}
+
+#right{
+    margin-right: 15vh;
+}
+
+.border-image{
+    border: 2px black solid;
 }
 
 /*elenco puntato*/
 div.primary-custom-text{
-    margin-top: -2%;
+    margin-top: 1%;
     color: #414040;
     text-align: justify;
     font-family: 'Timeless';
@@ -63,6 +74,11 @@ ul.setcenter {
 }
 
 /*slider*/
+.margin-correction{
+    margin-left: 5vh;
+    background-color: #D6D6D6;
+}
+
 .slider {
     border: 2px solid black;
     width: 300px;
@@ -128,3 +144,16 @@ ul.setcenter {
     opacity: 100%;
 }
 
+.sectionLarge{
+    width: 100vh;
+}
+
+.inlinedivSmall{
+    display: inline-block;
+    width: 30%
+}
+
+.inlinedivLarge{
+    display: inline-block;
+    width: 70%;
+}
