@@ -38,11 +38,14 @@
 }
 
 .margin-correction{
-    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: inline;
 }
 
 .section-correction{
     display: inline-block;
+    vertical-align: middle;
 }
 
 /*elenco puntato*/
