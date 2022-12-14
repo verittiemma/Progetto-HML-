@@ -86,6 +86,31 @@ ul.setcenter {
     text-align: left;
 }
 
+/*bottone*/
+.button-design{
+    background-color: #e6e48d;
+    box-shadow: 0px 2px 4px #000000;
+    border-radius: 10px;
+    padding: 20px 100px;
+    border: none;
+    text-align: center;
+}
+
+.font-bottone{
+    font-family: 'Timeless';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #000000;
+}
+
+.button-design:hover{
+    background-color: bisque;
+}
+
 /*slider*/
 .margin-correction{
     margin-left: 5vh;
@@ -171,18 +196,4 @@ ul.setcenter {
 
 .buttons a:hover{
     opacity: 100%;
-}
-
-.sectionLarge{
-    width: 100vh;
-}
-
-.inlinedivSmall{
-    display: inline-block;
-    width: 30%
-}
-
-.inlinedivLarge{
-    display: inline-block;
-    width: 70%;
 }
